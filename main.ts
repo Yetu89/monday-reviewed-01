@@ -1,10 +1,10 @@
 // Monday, Reviewed in One Line — make.fun bounty u-zeroxfive-monday-reviewed-in-one-line-e55de3c1
-// Writes one funny one-line review of the entrant's own Monday (117 characters, max 200, no trailing newline)
+// Writes one funny one-line review of the entrant's own Monday (123 characters, max 200, no trailing newline)
 // to /output/entry.txt (or $OUTPUT_DIR/entry.txt for local testing).
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT =
-  "My Monday inbox had 47 unread emails: 46 were meetings about the emails, and one was IT asking why I opened them all.";
+  "My Monday had a 9 a.m. meeting to plan the 10 a.m. meeting, which ended by scheduling a meeting about why nothing got done.";
 
 // Length in code points, so an astral character counts once.
 const LENGTH = [...TEXT].length;
